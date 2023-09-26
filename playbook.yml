@@ -1,0 +1,7 @@
+- name: Debug
+  hosts: all
+
+  tasks:
+    - name: Debug
+      debug:
+        msg: "This is debug message"
